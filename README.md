@@ -8,6 +8,12 @@ Niezbędne pliki można ściągnąć ze strony https://github.com/RHVoice/RHVoic
 W pliku konfiguracyjnym ustawiamy głos wybranego lektora i poziom głośności.
 W języku polskim są dostępne głosy Magda i Natan.
 
+Sposób uruchomienia:
+1. Utwórz w domowym folderze folder o nazwie gadulec
+2. Umieść w nim pliki skryptów gadulec-ustawienia.sh oraz gadulec.sh
+3. Uruchom skrypt gadulec-ustawienia.sh i dostosuj ustawienia zgodnie z twoimi upodobaniami
+4. Ciesz się z gadulca przypominającego o czasie upływającym nieubłaganie
+
 Skrypt gadulec-ustawienia.sh ustawia w cronie cykliczne wywoływanie lektora informującego o upływającym czasie.
 Ten skrypt pochodzi z mówiącego zegara vclock z 2014 roku. Autorem skryptu ustawiającego cronie jest Sakryukin K.V. (Сакрюкин К.В.)
 Skrypt został przeze mnie dostosowany do Gadulca, który nie korzysta z plików dźwiękowych, ponieważ syntezuje mowę za pomocą RHVoice i jest łatwy do modyfikacji przez użytkowników.
