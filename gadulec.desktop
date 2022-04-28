@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gadulec
+Comment=Zegar mówiący o upływającym czasie
+Exec=/home/user/gadulec/gadulec.sh
+Icon=/home/user/gadulec/gadulec.png
+Encoding=UTF-8
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Network;Internet;Multimedia;Application;
+

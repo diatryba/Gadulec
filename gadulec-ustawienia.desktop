@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gadulec-ustawienia
+Comment=Ustawienia parametrów gadulca - mówiącego zegara
+Exec=/home/user/gadulec/gadulec-ustawienia.sh
+Icon=/home/user/gadulec/gadulec.png
+Encoding=UTF-8
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Network;Internet;Multimedia;Application;
+
