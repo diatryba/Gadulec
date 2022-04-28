@@ -30,23 +30,21 @@ echo piąta | RHVoice-test -p $lektor
 else if [[ "$h" = 06 ]] ; then
 echo szósta | RHVoice-test -p $lektor
 else if [[ "$h" = 07 ]] ; then
-echo czwarta | RHVoice-test -p $lektor
+echo siódma | RHVoice-test -p $lektor
 else if [[ "$h" = 08 ]] ; then
-echo czwarta | RHVoice-test -p $lektor
+echo ósma | RHVoice-test -p $lektor
 else if [[ "$h" = 09 ]] ; then
-echo czwarta | RHVoice-test -p $lektor
+echo dziewiąta | RHVoice-test -p $lektor
 else if [[ "$h" = 10 ]] ; then
-echo czwarta | RHVoice-test -p $lektor
+echo dziesiąta | RHVoice-test -p $lektor
 else if [[ "$h" = 11 ]] ; then
-echo czwarta | RHVoice-test -p $lektor
+echo jedenasta | RHVoice-test -p $lektor
 else if [[ "$h" = 12 ]] && [[ "$m" = 00 ]] ; then
-echo dwunasta - południe | RHVoice-test -p $lektor
-else if [[ "$h" = 12 ]] && [[ "$m" > 00 ]] ; then
-echo dwunasta | RHVoice-test -p $lektor
+echo jest godzina dwunasta w południe | RHVoice-test -p $lektor
 else if [[ "$h" = 13 ]] ; then
 echo trzynasta | RHVoice-test -p $lektor
 else if [[ "$h" = 14 ]] ; then
-echo jest godzina czternasta | RHVoice-test -p $lektor
+echo czternasta | RHVoice-test -p $lektor
 else if [[ "$h" = 15 ]] ; then
 echo piętnasta | RHVoice-test -p $lektor
 else if [[ "$h" = 16 ]] ; then
@@ -244,7 +242,6 @@ exit
 else if [[ "$h" = 00 ]] && [[ "$m" = 59 ]] ; then
 echo za minutę godzina pierwsza | RHVoice-test -p $lektor
 exit
-fi
 fi
 fi
 fi
