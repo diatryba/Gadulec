@@ -15,6 +15,12 @@ Sposób uruchomienia:
 4. Ciesz się z gadulca przypominającego o czasie upływającym nieubłaganie
 
 Skrypt gadulec-ustawienia.sh ustawia w cronie cykliczne wywoływanie lektora informującego o upływającym czasie.
+
+
+Zainstaluj cronie i uaktywnij w systemie:
+sudo systemctl enable cronie.service
+sudo systemctl start cronie
+
 Ten skrypt pochodzi z mówiącego zegara vclock z 2014 roku. Autorem skryptu ustawiającego cronie jest Sakryukin K.V. (Сакрюкин К.В.)
 Skrypt został przeze mnie dostosowany do Gadulca, który nie korzysta z plików dźwiękowych, ponieważ syntezuje mowę za pomocą RHVoice i jest łatwy do modyfikacji przez użytkowników.
 
